@@ -37,5 +37,39 @@
       "repairedAt": null
     }
   ],
-  "batches": []
+  "batches": [],
+  "rates": [
+    {
+      "type": "虫蛀孔",
+      "category": "fine_patch",
+      "categoryName": "精细补洞",
+      "hourlyRate": 120,
+      "fixedFee": 30,
+      "active": true
+    },
+    {
+      "type": "撕裂",
+      "category": "fiber_rejoin",
+      "categoryName": "纤维接笔",
+      "hourlyRate": 100,
+      "fixedFee": 20,
+      "active": true
+    },
+    {
+      "type": "霉斑",
+      "category": "cleaning",
+      "categoryName": "除霉清洗",
+      "hourlyRate": 90,
+      "fixedFee": 0,
+      "active": true
+    },
+    {
+      "type": "缺角",
+      "category": "paper_infill",
+      "categoryName": "配纸补全",
+      "hourlyRate": 150,
+      "fixedFee": 50,
+      "active": true
+    }
+  ]
 }

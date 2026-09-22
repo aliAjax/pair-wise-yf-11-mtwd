@@ -20,6 +20,7 @@
       "status": "pending",
       "repairNote": "",
       "batchId": null,
+      "startedAt": null,
       "createdAt": "2026-06-16T00:00:00.000Z",
       "repairedAt": null
     },
@@ -33,8 +34,33 @@
       "status": "pending",
       "repairNote": "",
       "batchId": null,
+      "startedAt": null,
       "createdAt": "2026-06-16T00:00:00.000Z",
       "repairedAt": null
+    }
+  ],
+  "priceList": [
+    {
+      "id": "price_demo_1",
+      "damageType": "虫蛀孔",
+      "category": "精细补缀",
+      "hourlyRate": 120,
+      "defaultHours": 2,
+      "active": true,
+      "note": "按孔洞数量另计耗材",
+      "createdAt": "2026-06-16T00:00:00.000Z",
+      "updatedAt": null
+    },
+    {
+      "id": "price_demo_2",
+      "damageType": "撕裂",
+      "category": "揭裱托补",
+      "hourlyRate": 100,
+      "defaultHours": 3,
+      "active": true,
+      "note": "长边撕裂按比例上浮",
+      "createdAt": "2026-06-16T00:00:00.000Z",
+      "updatedAt": null
     }
   ],
   "batches": []
